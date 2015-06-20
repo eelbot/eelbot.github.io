@@ -52,7 +52,7 @@ body{
 
 .temp{
 	width:100%;
-	font-family: 'Forum', cursive;
+	font-family: 'Forum', sans-serif;
 	text-align:center;
 	font-size:8em;
 	color:#202020;
@@ -64,6 +64,14 @@ body{
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+.smaller{
+    font-family: 'Raleway', sans-serif;
+	text-align:center;
+	font-size:0.2em; !important
+	color:#202020;
+}
+
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
