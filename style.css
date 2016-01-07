@@ -16,6 +16,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
     line-height: 1;
+    padding-bottom: 20px;
 }
 ol, ul {
     list-style: none;
@@ -32,77 +33,94 @@ table {
     border-spacing: 0;
 }
 
-/********STYLES*********/
+/*********STYLES*********/
 
-body {
+body{
     width: 100%;
-    text-align:center;
-    background-color: #202020;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-top: solid 5px #26A65B;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #intro{
-    width:100%;
-}
-#intro_img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    z-index: -1;
+    width: 50%;
+    padding-left: 1.5%;
+    padding-top: 20px;
 }
 
-.menu{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5em;
-    position:absolute;
-    width:100%;
-    top:5%;
-    left:0;
+#hello {
+    padding-bottom: 30px;
+    font-size: 5em;
+}
+.medium-par{
+    font-size: 2em;
+    line-height: 150%;
 }
 
-.menu a{
-    text-align:center;
-    width:20%;
-    margin-left:30px;
-    margin-right:30px;
-    text-decoration: none;
-    color: #E87E04;
-    padding: 7px 7px 7px 7px;
-    border:solid 2px transparent;
-    transition-property: border;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
+
+
+.expandables{
+    padding-top: 30px;
+    padding-left:1.5%;
+    padding-bottom:20px;
+    width:50%;
 }
-.menu a:hover{
-    border:solid 2px #E87E04;
+.collapse-title{
+    font-size: 3em;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
-.content {
-    position:absolute;
-    top:90%;
-    width:100%;
-    height:600px;
-    background:#202020;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: left;
-    border-top:solid 7px #E87E04;
+.collapse_container{
+    padding-left: 1.5%;
+}
+.collapse_content{
+    font-size:1.5em;
+    padding-left: 2%;
+    line-height: 150%;
+}
+.collapse{
+  font-size: 31px;
+  display:block;
+  line-height: 150%;
+  cursor: pointer;
+}
+.collapse + input{
+  display:none;
+}
+.collapse + input + *{
+  display:none;
+}
+.collapse+ input:checked + *{
+  display:block;
 }
 
-#welcome {
-    color: #86E2D5;
-    font-size: 4em;
-    padding: 30px 0px 20px 60px;
-}
-.paragraph{
-    color: #86E2D5;
-    font-size: 1.3em;
-    padding: 20px 0px 20px 60px;
-    width:60%;
-    line-height:1.5;
+.green{
+    display: inline-block;
+    color: #26A65B;
 }
 
+.socila_media{
+    padding-top:30px;
+}
 .social_icon{
     width:50px;
     height:50px;
-    margin:20px;
+    margin-left:30px;
+}
+
+@media screen and (max-width: 800px) {
+    .expandables{
+        width:95%;
+        float:none;
+        border:none;
+    }
+    #intro{
+        width: 95%;
+    }
+    #hello{
+        padding-left:10px;
+    }
 }

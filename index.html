@@ -1,49 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Albert Jansen</title>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albert Jansen</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
 </head>
-
 <body>
-	<div id="intro">
-		<img id="intro_img" src="images/background4.jpg">
-	</div>
-	<div class="menu">
-		<a href="index.html">Home</a>
-		<a href="https://github.com/eelbot">Projects</a>
-		<a href="https://github.com/eelbot/Tutorials">Tutorials</a>
-		<a href="index.html">About</a>
-	</div>
-	<div class="content">
-		<div id="welcome">
-			Welcome to my page.
-		</div>
-		<div class="paragraph">
-			I made this page to house projects and tutorials, as well as provide
-			a little bit of info about myself. It is still under construction!
-		</div>
-		<div class="paragraph">
-			I am currently working on two projects, one of which is on github. The first is an easy to use,
-			approachable 3D printer control shield for the Arduino Uno based off
-			RAMPS 1.3. The second is a control based system for my capstone project. The 3D printer shield (called RAUPS) is still
-			being worked on, and it is continually being updated.
-		</div>
-		<div class="paragraph">
-			I also upload various small tutorials and programming challenge
-			problems that I have taken part in. The tutorials are being updated
-			and improved upon constantly. Some are used as a very, very fast
-			introduction to a programming language. Others deal with various
-			topics that interest me, that I wanted to share and teach to other
-			people.
-		</div>
-		<div class="paragraph">
-			<br>
-			<a class="social_icon" href="https://twitter.com/eelbot314"><img src="images/64-twitter.png"></a>
-			<a class="social_icon" href="https://ca.linkedin.com/in/ajansen314"><img src="images/64-linkedin.png"></a>
-		</div>
-	</div>
+    <div id="intro">
+        <div id="hello">
+            <p>Albert Jansen</p>
+        </div>
+        <p class="medium-par">This is my personal page. Here you can find some general
+            information on projects that I am working on, and a little bit about
+            myself.
+        </p>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            Projects
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_1"> <div class="green">+</div> Controller Card</label>
+            <input id="_1" type="checkbox">
+            <div class="collapse_content">Controller Card is a a capstone project. It is a PC to circuit interface, similar to solutions offered
+                                            from companies like National Instruments. It is completely open source. It features USB
+                                            to PC communication, ability to control and monitor 8 inputs and 8 outputs, as well as SPI broken
+                                            out to allow for future expansion. It is currently in very early development.
+                                            <br>
+                                            <a href="http://eelbot.github.io/ControllerCard/">Proposal and Site</a>
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_2"> <div class="green">+</div> RAUPS</label>
+            <input id="_2" type="checkbox">
+            <div class="collapse_content">RAUPS is a fork and redesign of the hardware associated with RAMPS, a 3D printer controler shield.
+                                            It stands for RepRap Arduino Uno Pololu Shield, and is currently in the testing and debugging stages
+                                            of development. This is an attempt to make the RepRap firmware available on a smaller, cheaper
+                                            controller than the Due or Mega. This project is almost out of the development stage and in the
+                                            support stage.
+                                            <br>
+                                            <a href="https://github.com/eelbot/RAUPS">Repo</a>
+            </div>
+        </div>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            Tutorials
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_3"> <div class="green">+</div> Python and C</label>
+            <input id="_3" type="checkbox">
+            <div class="collapse_content">Currently these tutorials are barebones and syntax based. As I learn about more features and
+                                            implementing different technologies, they will be updated with more specific, in depth
+                                            tutorials.
+                                            <br>
+                                        <a href="https://github.com/eelbot/Tutorials">Repo</a>
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_4"> <div class="green">+</div> PCB and Arduino</label>
+            <input id="_4" type="checkbox">
+            <div class="collapse_content">These two sets of tutorials were created as material for running small workshops at the
+                                            introductory level. The Arduino tutorial will likely not be updated anymore, however the PCB
+                                            tutorial will be updated with specific tips and examples.
+                                            <br>
+                                            <a href="https://github.com/eelbot/Tutorials">Repo</a>
+            </div>
+        </div>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            About
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_5"> <div class="green">+</div> Me</label>
+            <input id="_5" type="checkbox">
+            <div class="collapse_content">I am an Electronics Engineering Technologist by trade, and my interests lie specifically in
+                                            embedded systems. I really enjoy programming in Python on the PC side of things, and enjoy exploring
+                                            new ideas by making things. Feel free to reach out if you have any questions, or just want to talk
+                                            about a project.</div>
+        </div>
+    </div>
+    <div class="social_media">
+        <a class="social_icon" href="https://twitter.com/eelbot314"><img src="images/64-twitter.png"></a>
+        <a class="social_icon" href="https://ca.linkedin.com/in/ajansen314"><img src="images/64-linkedin.png"></a>
+    </div>
 </body>
 </html>
