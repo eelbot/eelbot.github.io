@@ -55,7 +55,7 @@ body{
     font-size: 5em;
 }
 .medium-par{
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 150%;
 }
 
@@ -68,21 +68,20 @@ body{
     width:50%;
 }
 .collapse-title{
-    font-size: 3em;
+    font-size: 2.5em;
     padding-bottom: 20px;
-    font-weight: bold;
 }
 
 .collapse_container{
     padding-left: 1.5%;
 }
 .collapse_content{
-    font-size:1.5em;
+    font-size:1.2em;
     padding-left: 2%;
     line-height: 150%;
 }
 .collapse{
-  font-size: 31px;
+  font-size: 1.5em;
   display:block;
   line-height: 150%;
   cursor: pointer;
@@ -102,12 +101,11 @@ body{
     color: #26A65B;
 }
 
-.socila_media{
+.social_media{
     padding-top:30px;
 }
-.social_icon{
+.social_icon img{
     width:50px;
-    height:50px;
     margin-left:30px;
 }
 
