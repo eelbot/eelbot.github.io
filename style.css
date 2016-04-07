@@ -41,7 +41,7 @@ body{
     color: black;
     text-align: left;
     border-top: solid 5px #26A65B;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
 }
 
 #intro{
@@ -49,13 +49,7 @@ body{
     padding-left: 1.5%;
     padding-top: 20px;
 }
-
-#hello {
-    padding-bottom: 30px;
-    font-size: 5em;
-}
 .medium-par{
-    font-size: 1.5em;
     line-height: 150%;
 }
 
@@ -68,7 +62,6 @@ body{
     width:50%;
 }
 .collapse-title{
-    font-size: 2.5em;
     padding-bottom: 20px;
 }
 
@@ -76,12 +69,10 @@ body{
     padding-left: 1.5%;
 }
 .collapse_content{
-    font-size:1.2em;
     padding-left: 2%;
     line-height: 150%;
 }
 .collapse{
-  font-size: 1.5em;
   display:block;
   line-height: 150%;
   cursor: pointer;
@@ -102,11 +93,16 @@ body{
 }
 
 .social_media{
-    padding-top:30px;
+    margin-top:30px;
+}
+.social_icon{
+    text-decoration: none;
+    padding-left: 1.5%;
 }
 .social_icon img{
-    width:50px;
-    margin-left:30px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+    width:32px;
 }
 
 @media screen and (max-width: 800px) {
