@@ -30,8 +30,30 @@
         </div>
         <br>
         <div class="collapse_container">
-            <label class="collapse" for="_2"> <div class="green">+</div> RAUPS</label>
+            <label class="collapse" for="_2"> <div class="green">+</div> Launchpads</label>
             <input id="_2" type="checkbox">
+            <div class="collapse_content">At first I created booster packs as a testing platform for the PicoCommander project, but they are quickly
+                                            progressing to become projects all their own.
+                                            <br><br>
+                                        The <strong>BufferLP</strong> Booster Pack provides 8 inputs and 8 outputs working at 5V, capable of sinking 180mA each.
+                                        It provides extra power, and allows the launchpad to be easily powered externally via a 5V DC Jack. It follows the standard
+                                        LaunchPad layout, and has almost no extra code overhead. Besides controlling the 5V inputs and outputs, a small amount of extra
+                                        code needs to be added to enable/disable the buffers. The hardware files are provided, with Energia and CCS examples coming in
+                                        the near future.
+                                        <br>
+                                        <a href="https://github.com/eelbot/BufferLP">Repo</a>
+                                        <br><br>
+                                        The <strong>USBLP</strong> Booster Pack breaks out the built in USB pins on the TMS320F28069M Booster Pack, and also connects
+                                        an SPI flash chip to SPIB. This booster pack is not universally compatible, since not every LaunchPad has built in USB pins. A CCS
+                                        example will be uploaded in the near future, since Energia does not break out the USB functionality built into the LaunchPad.
+                                        <br>
+                                        <a href="https://github.com/eelbot/USBLP">Repo</a>
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_3"> <div class="green">+</div> RAUPS</label>
+            <input id="_3" type="checkbox">
             <div class="collapse_content">RAUPS is a fork and redesign of the hardware associated with RAMPS, a 3D printer controler shield.
                                             It stands for RepRap Arduino Uno Pololu Shield. This is an attempt to make the RepRap firmware available on a smaller,
                                             cheaper controller than the Due or Mega.
@@ -45,8 +67,8 @@
             Tutorials
         </div>
         <div class="collapse_container">
-            <label class="collapse" for="_3"> <div class="green">+</div> Python and C</label>
-            <input id="_3" type="checkbox">
+            <label class="collapse" for="_4"> <div class="green">+</div> Python and C</label>
+            <input id="_4" type="checkbox">
             <div class="collapse_content">Currently these tutorials are barebones and syntax based. They were initially created to run workshops
                                             that would brush up syntax in preparation for programming challenges. As I learn about more features and
                                             implementing different libraries, they will be updated.
@@ -56,8 +78,8 @@
         </div>
         <br>
         <div class="collapse_container">
-            <label class="collapse" for="_4"> <div class="green">+</div> PCB and Arduino</label>
-            <input id="_4" type="checkbox">
+            <label class="collapse" for="_5"> <div class="green">+</div> PCB and Arduino</label>
+            <input id="_5" type="checkbox">
             <div class="collapse_content">These two sets of tutorials were created as material for running small workshops at the
                                             introductory level. The Arduino tutorials were used at workshops I ran very successfully, with audiences
                                             ranging from no knowledge of circuits to first year engineering students. The PCB workshop was also
@@ -72,8 +94,8 @@
             About
         </div>
         <div class="collapse_container">
-            <label class="collapse" for="_5"> <div class="green">+</div> Me</label>
-            <input id="_5" type="checkbox">
+            <label class="collapse" for="_6"> <div class="green">+</div> Me</label>
+            <input id="_6" type="checkbox">
             <div class="collapse_content">I am an Electronics Engineering Technologist by trade, and my interests lie specifically in
                                             embedded systems. I like working with Python, and am looking forward to continuing work on projects
                                             involving microcontrollers and FPGA's. Feel free to reach out if you have any questions, or just

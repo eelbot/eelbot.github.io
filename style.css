@@ -63,6 +63,7 @@ body{
 }
 .collapse-title{
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .collapse_container{
@@ -83,13 +84,16 @@ body{
 .collapse + input + *{
   display:none;
 }
-.collapse+ input:checked + *{
+.collapse + input:checked + *{
   display:block;
 }
 
 .green{
     display: inline-block;
     color: #26A65B;
+}
+.emphasis{
+    font-weight: bold;
 }
 
 .social_media{
