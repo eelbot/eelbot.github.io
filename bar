@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albert Jansen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div id="intro">
+        <p class="medium-par">This page is a (hopefully) up to date list of what is available at the bar!
+        </p>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            Projects
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_1"> <div class="green">+</div> Rum</label>
+            <input id="_1" type="checkbox">
+            <div class="collapse_content">
+                Here are some rum drinks
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_2"> <div class="green">+</div> Whiskey</label>
+            <input id="_2" type="checkbox">
+            <div class="collapse_content">
+                Here are some whiskey drinks
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_3"> <div class="green">+</div> Gin</label>
+            <input id="_3" type="checkbox">
+            <div class="collapse_content">
+                Here are some gin drinks
+            </div>
+        </div>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            Tutorials
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_4"> <div class="green">+</div> Specialty</label>
+            <input id="_4" type="checkbox">
+            <div class="collapse_content">
+                Here are some of the more exotic drinks.
+            </div>
+        </div>
+        <br>
+        <div class="collapse_container">
+            <label class="collapse" for="_5"> <div class="green">+</div>Other</label>
+            <input id="_5" type="checkbox">
+            <div class="collapse_content">
+                Here are some of the "other" drinks, that don't really fall into a category.
+            </div>
+        </div>
+    </div>
+    <div class="expandables">
+        <div class="collapse-title">
+            About
+        </div>
+        <div class="collapse_container">
+            <label class="collapse" for="_6"> <div class="green">+</div> Martinis and Manhattans</label>
+            <input id="_6" type="checkbox">
+            <div class="collapse_content">
+                Here are all the available martinis and manhattans.
+        </div>
+    </div>
+</body>
+</html>
